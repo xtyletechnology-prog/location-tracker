@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 import requests
 from dotenv import load_dotenv
 
-load_dotenv()  # Load variables from .env file
+load_dotenv()
 
 app = Flask(__name__)
 
